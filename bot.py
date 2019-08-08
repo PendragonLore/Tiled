@@ -28,6 +28,7 @@ class TiledBot(commands.Bot):
         print(f"Logged on as {self.user} (ID: {self.user.id})")
 
 
-bot = TiledBot()
+if __name__ == "__main__":
+    bot = TiledBot()
 
-bot.run(config.token)
+    bot.run(config.token)
