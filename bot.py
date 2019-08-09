@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import sys
 import asyncio
 import logging
 import pathlib
+import sys
 
 from discord.ext import commands, tasks
 
